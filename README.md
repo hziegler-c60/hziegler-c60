@@ -1,6 +1,7 @@
 <div>
-  <img src="http://github.com/hziegler-c60.png" Width="150"/>
-## Hi, my name is Hannah Ziegler
+<img src="http://github.com/hziegler-c60.png" Width="150"/>
+
+  ## Hi, my name is Hannah Ziegler
 </div>
 
 I'm a cycle 60 intern with I.C.Stars. 
