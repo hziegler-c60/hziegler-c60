@@ -4,6 +4,10 @@ I'm a cycle 60 intern with I.C.Stars.
 
 I'm currently working on the Medline Operations Problem Navigator.
 
+**Currently Building** Working to design an app for problem identification
+
+**My goal this cycle** grow competency in data analysis
+
 <!--
 **hziegler-c60/hziegler-c60** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
