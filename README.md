@@ -1,4 +1,7 @@
-## Hi there 👋
+## Hi, my name is Hannah Ziegler
+
+I'm a cycle 60 intern with I.C.Stars. 
+I'm currently working on the Medline Operations Problem Navigator.
 
 <!--
 **hziegler-c60/hziegler-c60** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
