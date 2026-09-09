@@ -1,4 +1,4 @@
-<div align>
+<div align="center">
 <img src="http://github.com/hziegler-c60.png" Width="150"/>
 
   ## Hi, my name is Hannah Ziegler
