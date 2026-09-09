@@ -15,7 +15,15 @@ I'm currently working on the Medline Operations Problem Navigator.
 
 **Reach me at:**
 + [email](mailto:hziegler@icstars.org)
-  
+
+  <details>
+    <summary> I'm Currently Learning </summary>
+    
+    + Javascript
+    + Css
+
+    
+  </details>
 
 <!--
 **hziegler-c60/hziegler-c60** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
