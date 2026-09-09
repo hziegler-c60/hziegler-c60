@@ -21,6 +21,7 @@ I'm currently working on the Medline Operations Problem Navigator.
     
     + Javascript
     + Css
+    + Business Analysis
 
     
   </details>
