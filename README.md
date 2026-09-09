@@ -10,7 +10,7 @@ I'm currently working on the Medline Operations Problem Navigator.
 
 
 **Reach me at:**
-+ [email] (mailto:hziegler@icstars.org)
++ [email](mailto:hziegler@icstars.org)
   
 
 <!--
