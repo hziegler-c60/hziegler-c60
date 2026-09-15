@@ -8,7 +8,7 @@ I'm a cycle 60 intern with I.C.Stars.
 
 I'm currently working on the Medline Operations Problem Navigator.
 
-**Currently Building** Working to design an app for problem identification
+**Currently Building** Kinect based 3D modeling
 
 **My goal this cycle:** grow competency in data analysis.
 
