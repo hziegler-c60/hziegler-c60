@@ -18,10 +18,53 @@ content="width=device-width, initial-scale=1.0">
 <main>
 <section id="hero">
 <h1>Tech Projects</h1>
+<p class="tagline">
+A brief look into my ongoing tech projects
+<nav>
+<a href="#kinect">Kinect Project</a>
+</nav>
+</p>
+</section>
 
+<section id="kinect">
+<h2>Kinect Project</h2>
+<h4>A Summary</h4>
+<p>
+The goal of this project is to take a 3D head scan captured with an original Xbox 360 Kinect sensor and fuse it onto a 3D-printable action figure body, combining computer vision, mesh processing, and a lot of hands-on debugging into one pipeline.
+ Using Microsoft's KinectFusion algorithm, the Kinect's depth camera builds up a 3D model of a person's head as the sensor moves around them frame by frame; from there, a custom Python pipeline (built on Open3D) cleans up the raw scan, closes the gaps a single scanning pass leaves behind, and fuses the head onto a body model to produce a print-ready file.
+<br>
+</p>
+<br>
+<h4>The Process So Far</h4>
+<p>The first goal was to create a usable work envirnment to allow for a clean complete head scan with minimal background static using Kinect Fusion Explorer.
+    The first attempt produced a head scan that was missing a large portion of nearly 50% of the back of the subject's head.
+    Adjustments to lighting, including minimizing natural light and using two standing LED lights, the missing gap was able to be reduced to about 30%.
+</p>
+<br>
+<p>The next goal was to create a simple body to test the fit of the head scan onto.
+    Body models were built as placeholders, fusing the head onto the body as one solid piece rather than building a swappable joint. 
+    The first attemp left the base sitting off the print bed and an arm floating disconnected from the body.
+</p>
+<br>
+<h4>Next Steps</h4>
+<p>The next step is to continue refining the capture setup to close the remaining gap even further, adjusting the sensor's movement speed and depth range to keep tracking from failing mid-scan. 
+    Once a scan comes back with a small enough opening, it will run through a cleanup and reconstruction process that isolates the head from any background noise and rebuilds it into a proper 3D surface, followed by a hole-filling step that closes whatever gap remains with texture matched to the subject's own hair rather than a generic patch. 
+    From there, the completed head model will be fused onto a body model to produce a final print-ready figure.
+</p> 
+<br>
+<h4>See the Process for Yourself</h4>
+<div class="scroll-container">
+    <img src="Assets/scan1.jpg" alt="A incomplete head scan of a person's face ans the sides of their head" style="height:300px">
+    <img src="Assets/scan1mesh.jpg" alt="The first attempt at a mesh file using head scan 1" style="height:300px">
+    <img src="Assets/worstmodel.jpg" alt="The messed up model mentioned above iwth the head and arm misplaced" style="Height:300px">
+    <img src="Assets/problemattempt.jpg" alt="A refined version of the head fused onto the body model" style="Height:300px">
+    <img src="Assets/scan2.jpg" alt="The second better attempt at the head scan" style="Height:300px">
+    <img src="Assets/scan2mesh.jpg" alt="The mesh file that came from the second head scan attepmt" style="Height:300px">
+</div>
+</section>
 </main>
 <footer>
-<p>&copy; 2026 Hannah Ziegler</p>
+<p> 2026 Hannah Ziegler</p>
 </footer>
 </body>
 </html>
