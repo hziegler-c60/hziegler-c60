@@ -1,42 +1,35 @@
-<div align="center">
-<img src="http://github.com/hziegler-c60.png" Width="150"/>
+# Hannah Ziegler — Portfolio
 
-  ## Hi, my name is Hannah Ziegler
-</div>
+Personal portfolio site, live at <https://hziegler-c60.github.io/hziegler-c60/>.
 
-I'm a cycle 60 intern with I.C.Stars. 
+## Pages
 
-I'm currently working on the Medline Operations Problem Navigator.
+- **Home** — about me, education & training, skills & accomplishments, work history, contact
+- **The Science** — ongoing tech projects (currently: Kinect-based 3D modeling)
+- **The Arts** — poetry, essays, and multimedia art
 
-**Currently Building** Kinect based 3D modeling
+## Stack
 
-**My goal this cycle:** grow competency in data analysis.
+- [Jekyll](https://jekyllrb.com/) on GitHub Pages
+- [ET-Jekyll theme](https://github.com/bradleytaunt/ET-Jekyll) (MIT license), a
+  minimal theme based on Tufte CSS / Edward Tufte's book designs
 
+## Local preview
 
-**Reach me at:**
-+ [email](mailto:hziegler@icstars.org)
+No Ruby required — render the site to plain HTML with:
 
-  <details>
-    <summary> I'm Currently Learning </summary>
-    
-    + Javascript
-    + Css
-    + HTML
+```
+python scripts/build_preview.py
+```
 
-    
-  </details>
+Then open `_preview/index.html` in any browser (works straight from disk).
 
-<!--
-**hziegler-c60/hziegler-c60** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+If you do have Ruby/Jekyll installed, `bundle exec jekyll serve` works too.
 
-Here are some ideas to get you started:
+## About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a Cycle 60 intern with I.C.Stars in Chicago, growing my skills in data
+analysis, HTML, CSS, and SQL. Previously: library technical services,
+logistics, and co-founding a catering business.
+
+Reach me at [hziegler@icstars.org](mailto:hziegler@icstars.org).

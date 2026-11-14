@@ -1,0 +1,12 @@
+title: Hannah Ziegler
+subtitle: Portfolio
+email: hziegler@icstars.org
+description: Bridging creative thinking and operational precision
+baseurl: "/hziegler-c60"
+url: "https://hziegler-c60.github.io"
+author: Hannah Ziegler
+
+markdown: kramdown
+
+sass:
+  style: compressed

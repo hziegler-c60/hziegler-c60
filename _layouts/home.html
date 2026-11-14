@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <canvas id="star-chart" aria-hidden="true"></canvas>
+        <div id="lantern-veil" aria-hidden="true"></div>
+        <div class="inner">
+            <header class="major">
+                <h1>Hannah Ziegler</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;" id="typewriter">Bridging creative thinking and operational precision</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Explore</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Tiles -->
+        <section id="one" class="tiles">
+            <article>
+                <span class="frame"></span>
+                <span class="corner tl">❧</span><span class="corner tr">❧</span>
+                <span class="corner bl">❧</span><span class="corner br">❧</span>
+                
+                <span class="image">
+                    <img src="{{ site.baseurl }}/Assets/scan2.jpg" alt="3D head scan from the Kinect project" />
+                </span>
+                <header class="major">
+                    <h3><a href="{{ site.baseurl }}/projects/index.html" class="link">The Science</a></h3>
+                    <p>Kinect-based 3D modeling and other ongoing tech projects</p>
+                </header>
+            </article>
+            <article>
+                <span class="frame"></span>
+                <span class="corner tl">❧</span><span class="corner tr">❧</span>
+                <span class="corner bl">❧</span><span class="corner br">❧</span>
+                
+                <span class="image">
+                    <img src="{{ site.baseurl }}/Assets/mog.jpg" alt="Embroidered moth artwork" />
+                </span>
+                <header class="major">
+                    <h3><a href="{{ site.baseurl }}/art/index.html" class="link">The Arts</a></h3>
+                    <p>Poems, essays, and artwork</p>
+                </header>
+            </article>
+            <article>
+                <span class="frame"></span>
+                <span class="corner tl">❧</span><span class="corner tr">❧</span>
+                <span class="corner bl">❧</span><span class="corner br">❧</span>
+                
+                <span class="image">
+                    <img src="{{ site.baseurl }}/Assets/headshot.jpg" alt="Portrait of Hannah Ziegler" />
+                </span>
+                <header class="major">
+                    <h3><a href="{{ site.baseurl }}/about/index.html" class="link">About</a></h3>
+                    <p>Education, skills and accomplishments, work history</p>
+                </header>
+            </article>
+            <article>
+                <span class="frame"></span>
+                <span class="corner tl">❧</span><span class="corner tr">❧</span>
+                <span class="corner bl">❧</span><span class="corner br">❧</span>
+                
+                <span class="image">
+                    <img src="{{ site.baseurl }}/Assets/cat-2.jpg" alt="Shaggy the cat" />
+                </span>
+                <header class="major">
+                    <h3><a href="#contact" class="link scrolly">Contact</a></h3>
+                    <p>Get in touch — supervised by Shaggy <button class="schnitzel-poke" title="Pet Shaggy">pet him</button></p>
+                </header>
+            </article>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                {{ content }}
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
