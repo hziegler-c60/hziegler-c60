@@ -2,7 +2,6 @@
 layout: landing
 title: About
 permalink: /about/
-image: Assets/headshot.jpg
 description: Education, skills and accomplishments, work history, and contact.
 ---
 
