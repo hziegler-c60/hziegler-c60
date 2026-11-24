@@ -193,7 +193,7 @@
         for (var i = 0; i < 5; i++) {
             (function (i) {
                 var img = document.createElement('img');
-                img.src = window.BASEURL + 'Assets/cat-2.jpg';
+                img.src = window.BASEURL + 'assets/cat-2.jpg';
                 img.className = 'schnitzel-parade';
                 img.style.top = (8 + Math.random() * 70) + 'vh';
                 img.style.animationDelay = (i * 0.4) + 's';

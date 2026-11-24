@@ -2,7 +2,7 @@
 layout: landing
 title: The Arts
 permalink: /art/
-image: Assets/charcoal.jpg
+image: assets/charcoal.jpg
 description: A collection of my poems, essays, and art
 ---
 
@@ -170,7 +170,7 @@ I hope there’s a frog about to find a new hat not far behind.
 <h3>Mislabeled: A Tale of Charles Dickens</h3>
 
 <ul class="actions">
-<li><a href="{{ site.baseurl }}/Assets/mislabeled-charles-dickens.pdf" class="button">Read the full essay (PDF)</a></li>
+<li><a href="{{ site.baseurl }}/assets/mislabeled-charles-dickens.pdf" class="button">Read the full essay (PDF)</a></li>
 </ul>
 
 <p>"Charles Dickens was well known for his characters that often embodied a grotesque and whimsical nature. His characters were often unrealistic personifications of the societal problems that he found to be the most prominent. While some of his works could be described as dark, the characters were typically stretched just far enough from reality to retain their whimsy. The characters of Hard Times, however, were far less whimsical than any character that Dickens had previously created; these characters were so grotesque and dreary that for a while after publication, many critics avoided addressing the novel directly. Dickens completed Hard Times in 1854, and still in 1948, a critic named F R Leavis lamented that Hard Times was the greatest of all Dickens’ novels, yet “in the books and essays on Dickens, so far as I know them, it is passed over as a very minor thing” (Leavis 364). Slowly, once it did begin to gain critical attention; critics began to question the accuracy of what Dickens believed to be strictly Utilitarian characters: Thomas Gradgrind and Josiah Bounderby..."</p>
@@ -178,7 +178,7 @@ I hope there’s a frog about to find a new hat not far behind.
 <h3>The Necessity of Induction</h3>
 
 <ul class="actions">
-<li><a href="{{ site.baseurl }}/Assets/necessity-of-induction.pdf" class="button">Read the full essay (PDF)</a></li>
+<li><a href="{{ site.baseurl }}/assets/necessity-of-induction.pdf" class="button">Read the full essay (PDF)</a></li>
 </ul>
 
 <p>"Within Philosophy of Science, philosophers have come to find the use of induction in science to be problematic. According to Karl Popper, the problem of induction is this: “People who say of a universal statement that we know its truth from experience usually mean that the truth of this universal can somehow be reduced to the truth of singular ones, and that those singular ones are known by experience to be true; which amounts to saying that the universal statement is based on inductive inference”. (2013, 407) The problem that philosophers have with this is that it implies that there is an inability to be certain in any attempt to understand universal truths or laws. This essay will look at induction in terms of noumena and phenomena, as well as argue that the problem of induction is one that is inevitable; it cannot, and need not be ‘solved’..."</p>
@@ -194,7 +194,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </header>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/IMG_3328.jpg" alt="Pencil drawing of 3 paper bags on paper" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/IMG_3328.jpg" alt="Pencil drawing of 3 paper bags on paper" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -206,7 +206,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/boc.jpg" alt="Painting of Elden Ring character 'Boc the Seamster' mirrored in pink and blue against a green striped gradient background" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/boc.jpg" alt="Painting of Elden Ring character 'Boc the Seamster' mirrored in pink and blue against a green striped gradient background" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -218,7 +218,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/mog.jpg" alt="Embroidery of moogles from the Final Fantasy series perched in a large blue chalice" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/mog.jpg" alt="Embroidery of moogles from the Final Fantasy series perched in a large blue chalice" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -230,7 +230,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/jacket.jpg" alt="Embroidery of the sun and planets on a denim jacket, Pluto is not included as a planet" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/jacket.jpg" alt="Embroidery of the sun and planets on a denim jacket, Pluto is not included as a planet" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -242,7 +242,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/charcoal.jpg" alt="Charcoal still life drawing" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/charcoal.jpg" alt="Charcoal still life drawing" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -254,7 +254,7 @@ I hope there’s a frog about to find a new hat not far behind.
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/curtains.jpg" alt="Pencil drawing of draped curtains" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/curtains.jpg" alt="Pencil drawing of draped curtains" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">

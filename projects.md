@@ -2,7 +2,7 @@
 layout: landing
 title: The Science
 permalink: /projects/
-image: Assets/scan2mesh.jpg
+image: assets/scan2mesh.jpg
 description: A brief look into my ongoing tech projects
 ---
 
@@ -38,7 +38,7 @@ description: A brief look into my ongoing tech projects
 </header>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/scan1.jpg" alt="An incomplete head scan of a person's face and the sides of their head" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan1.jpg" alt="An incomplete head scan of a person's face and the sides of their head" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -50,7 +50,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/scan1mesh.jpg" alt="The first attempt at a mesh file using head scan 1" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan1mesh.jpg" alt="The first attempt at a mesh file using head scan 1" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -62,7 +62,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/worstmodel.jpg" alt="The model with the head and arm misplaced" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/worstmodel.jpg" alt="The model with the head and arm misplaced" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -74,7 +74,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/problemattempt.jpg" alt="A refined version of the head fused onto the body model" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/problemattempt.jpg" alt="A refined version of the head fused onto the body model" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -86,7 +86,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/scan2.jpg" alt="The second, better attempt at the head scan" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan2.jpg" alt="The second, better attempt at the head scan" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -98,7 +98,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/Assets/scan2mesh.jpg" alt="The mesh file that came from the second head scan attempt" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan2mesh.jpg" alt="The mesh file that came from the second head scan attempt" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
