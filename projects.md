@@ -111,3 +111,19 @@ description: A brief look into my ongoing tech projects
 
 </div>
 </section>
+
+<section id="three">
+<div class="inner">
+
+<header class="major">
+<h2>Illustrate — A Planetary Responsibility</h2>
+</header>
+
+<p>A standalone illustrated website, live on GitHub Pages.</p>
+
+<ul class="actions">
+<li><a href="https://hziegler-c60.github.io/planetary-illustrate/" class="button" target="_blank" rel="noopener noreferrer">Visit the site</a></li>
+</ul>
+
+</div>
+</section>
