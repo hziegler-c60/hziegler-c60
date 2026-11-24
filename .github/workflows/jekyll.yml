@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -27,7 +27,25 @@ jobs:
       - name: Install Jekyll
         run: gem install jekyll -v "~> 4.3" --no-document
       - name: Build site
-        run: jekyll build --verbose
+        id: build
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          jekyll build --verbose 2>&1 | tee build.log
+      - name: Publish build log on failure
+        if: steps.build.outcome == 'failure'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan build-logs
+          git rm -rf . > /dev/null 2>&1 || true
+          mv build.log build-log.txt
+          git add build-log.txt
+          git commit -q -m "Jekyll build log"
+          git push -f origin build-logs
+      - name: Fail if build failed
+        if: steps.build.outcome == 'failure'
+        run: exit 1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
