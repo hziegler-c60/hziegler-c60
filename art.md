@@ -6,6 +6,12 @@ image: assets/charcoal.jpg
 description: A collection of my poems, essays, and art
 ---
 
+<nav class="page-nav" aria-label="On this page">
+<a href="#one" class="scrolly">Poetry</a>
+<a href="#two" class="scrolly">Essays</a>
+<a href="#three" class="scrolly">Multimedia Art</a>
+</nav>
+
 <section id="one">
 <div class="inner">
 

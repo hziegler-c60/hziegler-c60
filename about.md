@@ -5,6 +5,12 @@ permalink: /about/
 description: Education, skills and accomplishments, work history, and contact.
 ---
 
+<nav class="page-nav" aria-label="On this page">
+<a href="#one" class="scrolly">Education &amp; Training</a>
+<a href="#two" class="scrolly">Skills &amp; Accomplishments</a>
+<a href="#three" class="scrolly">Work History</a>
+</nav>
+
 <section id="one">
 <div class="inner">
 

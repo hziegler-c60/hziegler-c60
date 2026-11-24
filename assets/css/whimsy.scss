@@ -32,6 +32,78 @@ header.major h2::after {
 	color: #d4af6a;
 }
 
+/* Section nav — link row under the banner */
+.page-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.4em 0;
+	padding: 1.4em 2em;
+	background: #1e2e25;
+	border-bottom: 1px solid rgba(212, 175, 106, 0.25);
+	text-align: center;
+
+	a {
+		font-family: 'Cinzel', Georgia, serif;
+		font-size: 0.85em;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: #d4af6a;
+		border-bottom: none;
+		padding: 0.2em 0.4em;
+		transition: color 0.2s ease, text-shadow 0.2s ease;
+
+		&:hover {
+			color: #faf3e3;
+			text-shadow: 0 0 8px rgba(212, 175, 106, 0.6);
+		}
+	}
+
+	a + a::before {
+		content: '❧';
+		margin: 0 1.1em;
+		color: rgba(212, 175, 106, 0.45);
+		pointer-events: none;
+	}
+}
+
+/* Back-to-top circle, lower right */
+.back-to-top {
+	position: fixed;
+	right: 1.25em;
+	bottom: 1.25em;
+	z-index: 9000;
+	width: 2.75em;
+	height: 2.75em;
+	border-radius: 50%;
+	border: 1px solid rgba(212, 175, 106, 0.6);
+	background: rgba(22, 36, 29, 0.88);
+	color: #d4af6a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.05em;
+	line-height: 1;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(212, 175, 106, 0.6) !important;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease, transform 0.2s ease, background 0.2s ease;
+
+	&.visible {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	&:hover {
+		transform: translateY(-3px);
+		background: rgba(30, 46, 37, 0.95);
+		border-color: #d4af6a;
+		border-bottom-color: #d4af6a;
+	}
+}
+
 /* Manuscript-plate frames around spotlight images */
 .spotlights .image {
 	border: 1px solid rgba(212, 175, 106, 0.5);

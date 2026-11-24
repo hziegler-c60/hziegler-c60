@@ -6,6 +6,12 @@ image: assets/scan2mesh.jpg
 description: A brief look into my ongoing tech projects
 ---
 
+<nav class="page-nav" aria-label="On this page">
+<a href="#one" class="scrolly">Kinect Project</a>
+<a href="#two" class="scrolly">See the Process</a>
+<a href="#three" class="scrolly">Illustrate</a>
+</nav>
+
 <section id="one">
 <div class="inner">
 

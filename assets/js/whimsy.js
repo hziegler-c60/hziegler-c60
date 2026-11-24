@@ -294,6 +294,15 @@
         var partyBtn = document.getElementById('party-btn');
         if (partyBtn) partyBtn.addEventListener('click', toggleParty);
 
+        var toTop = document.querySelector('.back-to-top');
+        if (toTop) {
+            var onScroll = function () {
+                toTop.classList.toggle('visible', window.scrollY > 400);
+            };
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        }
+
         document.querySelectorAll('.wax-seal').forEach(function (el) {
             el.addEventListener('click', breakSeal);
         });
