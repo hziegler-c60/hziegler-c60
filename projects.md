@@ -44,7 +44,7 @@ description: A brief look into my ongoing tech projects
 </header>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/assets/scan1.jpg" alt="An incomplete head scan of a person's face and the sides of their head" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan1.jpg" alt="An incomplete head scan of a person's face and the sides of their head" loading="lazy" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -56,19 +56,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/assets/scan1mesh.jpg" alt="The first attempt at a mesh file using head scan 1" /></a>
-<div class="content">
-<div class="inner">
-<header class="major">
-<h3>The mesh from scan one</h3>
-</header>
-<p>The raw mesh before cleanup.</p>
-</div>
-</div>
-</section>
-
-<section>
-<a class="image"><img src="{{ site.baseurl }}/assets/worstmodel.jpg" alt="The model with the head and arm misplaced" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/worstmodel.jpg" alt="The model with the head and arm misplaced" loading="lazy" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
@@ -80,31 +68,7 @@ description: A brief look into my ongoing tech projects
 </section>
 
 <section>
-<a class="image"><img src="{{ site.baseurl }}/assets/problemattempt.jpg" alt="A refined version of the head fused onto the body model" /></a>
-<div class="content">
-<div class="inner">
-<header class="major">
-<h3>A refined fusion</h3>
-</header>
-<p>The head fused onto the body model.</p>
-</div>
-</div>
-</section>
-
-<section>
-<a class="image"><img src="{{ site.baseurl }}/assets/scan2.jpg" alt="The second, better attempt at the head scan" /></a>
-<div class="content">
-<div class="inner">
-<header class="major">
-<h3>Scan two</h3>
-</header>
-<p>Much less missing after lighting adjustments.</p>
-</div>
-</div>
-</section>
-
-<section>
-<a class="image"><img src="{{ site.baseurl }}/assets/scan2mesh.jpg" alt="The mesh file that came from the second head scan attempt" /></a>
+<a class="image"><img src="{{ site.baseurl }}/assets/scan2mesh.jpg" alt="The mesh file that came from the second head scan attempt" loading="lazy" /></a>
 <div class="content">
 <div class="inner">
 <header class="major">
